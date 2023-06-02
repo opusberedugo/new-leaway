@@ -173,6 +173,11 @@ section.services .service {
   padding: 20px 20px;
   border-radius: 10px;
 }
+section.services .service .img img {
+  display: block;
+  max-width: 50px;
+  min-width: 50px;
+}
 section.services .service h4 {
   font-size: 1.2rem;
   padding: 10px 0;

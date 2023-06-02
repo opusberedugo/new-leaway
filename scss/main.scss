@@ -222,6 +222,13 @@ section.services {
     padding: 20px 20px;
     border-radius: 10px;
 
+    .img{
+      img{
+        display: block;
+        max-width: 50px;
+        min-width: 50px;
+      }
+    }
     h4 {
       font-size: 1.2rem;
       padding: 10px 0;
