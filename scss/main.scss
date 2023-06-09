@@ -316,6 +316,13 @@ footer {
 
   a {
     color: inherit;
+    // padding: 2px 0;
+    display: block;
+    width: fit-content;
+    border-bottom:0 solid white ;
+    &:hover{
+      border-bottom:3px solid white;
+    }
 
   }
 

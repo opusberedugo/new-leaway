@@ -250,6 +250,12 @@ footer {
 }
 footer a {
   color: inherit;
+  display: block;
+  width: fit-content;
+  border-bottom: 0 solid white;
+}
+footer a:hover {
+  border-bottom: 3px solid white;
 }
 footer ul {
   list-style-type: none;
