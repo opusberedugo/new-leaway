@@ -248,10 +248,17 @@ footer {
   text-align: center;
   padding: 50px 10vw;
 }
+footer div:first-of-type {
+  text-align: center;
+}
+footer div:first-of-type a {
+  width: 100%;
+}
 footer a {
   color: inherit;
   display: block;
   width: fit-content;
+  text-align: center;
   border-bottom: 0 solid white;
 }
 footer a:hover {
@@ -262,6 +269,7 @@ footer ul {
 }
 footer ul li {
   padding: 20px 0;
+  text-align: center;
 }
 footer .grid {
   grid-template-columns: repeat(3, 1fr);

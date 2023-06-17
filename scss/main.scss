@@ -314,11 +314,19 @@ footer {
   text-align: center;
   padding: 50px 10vw;
 
+  div:first-of-type{
+    text-align: center;
+    a{
+      width: 100%;
+    }
+  }
+
   a {
     color: inherit;
     // padding: 2px 0;
     display: block;
     width: fit-content;
+    text-align: center;
     border-bottom:0 solid white ;
     &:hover{
       border-bottom:3px solid white;
@@ -331,6 +339,7 @@ footer {
 
     li {
       padding: 20px 0;
+      text-align: center;
     }
   }
 
